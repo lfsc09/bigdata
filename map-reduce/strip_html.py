@@ -3,6 +3,13 @@
 #	   flag_separate_files = false - Throw all output to a single file;
 #	   files_path: Path of the reading files.
 #	   write_path: Path for the created files.
+#
+# Se houver erro na importacao de 'lxml', instalar com yum para centOS:
+#	   1- sudo yum install -y gcc ruby-devel libxml2 libxml2-devel libxslt libxslt-devel
+#			OU
+#	   1- sudo pip install -U pip setuptools
+#	   2- sudo pip install lxml
+#
 
 import lxml
 from lxml.html.clean import Cleaner
