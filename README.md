@@ -1,2 +1,2 @@
 # bigdata
-Repositório com códigos da pós de bigdata
+Repository with bigdata course codes
